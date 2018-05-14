@@ -1,11 +1,11 @@
 {
 	"compilerOptions": {
-		"module": "system",
+		"module": "commonjs",
 		"noImplicitAny": true,
 		"removeComments": true,
 		"preserveConstEnums": true,
 		"outFile": "bin/game.js",
-		"sourceMap": true,
+		"sourceMap": true
 	},
 	"include": [
 		"src/**/*.ts",

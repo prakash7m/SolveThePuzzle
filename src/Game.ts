@@ -1,10 +1,11 @@
-module MyGame {
-
+module MyGame {	
+	export const tileSize = 80;
+	export const tileDim = [4, 5];
 	export class Game extends Phaser.Game {
 
 		constructor() {
 
-			super(800, 600, Phaser.AUTO, 'content', null);
+			super(tileSize*tileDim[0], tileSize*tileDim[1], Phaser.AUTO, 'content', null);
 
 			this.state.add('Boot', Boot, false);
 			this.state.add('Preloader', Preloader, false);
