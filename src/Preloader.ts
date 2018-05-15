@@ -22,6 +22,9 @@ module MyGame {
 			//	+ lots of other required assets here
 
 			this.load.image('puzzle', 'assets/hill.jpg');
+			this.load.image('bubble', 'assets/bubble.png');
+			this.load.image('star', 'assets/star.png');
+			this.load.image('star-10', 'assets/10px-Star.png');
 
 		}
 

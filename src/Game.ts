@@ -1,6 +1,6 @@
 module MyGame {	
 	export const tileSize = 80;
-	export const tileDim = [4, 5];
+	export const tileDim = [5, 6];
 	export class Game extends Phaser.Game {
 
 		constructor() {
